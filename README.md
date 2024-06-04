@@ -1,0 +1,1 @@
+Custom google meets extension to count the time and highlight approaching the end of the meeting
