@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "GMCE",
+    "description": "Google meet countdown extension",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon_countdown.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+  
+    "offline_enabled": true,
+  
+    "permissions": [
+      "notifications"
+    ],
+    "web_accessible_resources": [
+         {
+              "resources": [
+                   "*/*"
+              ],
+              "matches": [
+                   "*://*/*"
+              ]
+         }
+    ]
+}
